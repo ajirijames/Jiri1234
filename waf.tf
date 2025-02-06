@@ -1,5 +1,5 @@
-resource "azurerm_web_application_firewall_policy" "example" {
-  name                = "example-waf-policy"
+resource "azurerm_web_application_firewall_policy" "jiri" {
+  name                = "ajiriwaf"
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example.location
 
