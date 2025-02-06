@@ -1,7 +1,7 @@
 resource "azurerm_web_application_firewall_policy" "jiri" {
   name                = "ajirimcitwaf"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_resource_group.example.location
+  resource_group_name = "mcit_resource_group_ajiri"
+  location            = "canadacentral"
 
   custom_rules {
     name      = "BlockSQLInjection"
