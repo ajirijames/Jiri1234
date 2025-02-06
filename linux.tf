@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "ajirimcit25" {
   name     = "mcit_resource_group_ajiri"
   location = "Canada Central"
 }
